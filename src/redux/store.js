@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import TodoReducer from './todo/reducer';
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
-  },
+    todo: TodoReducer
+  }
 });
