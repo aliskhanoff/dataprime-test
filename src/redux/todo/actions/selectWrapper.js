@@ -1,4 +1,3 @@
-import React from 'react'
 import { SELECT_TODO_WRAP } from '../constants'
 
 export const selectWrapper = (isSelected = true) => {
